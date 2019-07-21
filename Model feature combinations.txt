@@ -1,0 +1,15 @@
+1) All locations (ALL). Urban, HUNVFlag, LowIncomeTracts, LATracts1, LATracts10, LATracts20, LATractsVehicle_20 
+# Does a vehicle = 1 have a signficiant relationship with the Low Income tracts at different mileages and Urban/Rural? 
+
+2) ALL. Urban, lakids1, laseniors1, lasnap1
+# Are kids or seniors affected differently by Urban/Rural and by level of SNAP participation in the neighborhood?
+
+3) ALL. Poverty rate, lapop1, lalowi1share, lawhite1, lablack1, lamulti1, lahisp1
+# How are the various racial categories represented across poverty ratings, low income, and overall population?
+	# I excluded Asian, Pacific Islander, and American Indian because they have entire bins represented at '0' for 1 mile distance.
+
+4) ALL. Urban, lalowi1share, lasnap1, lawhite1, lablack1, lamulti1, lahisp1
+# Are the various racial categories affected differently by the ratio of low income and/or SNAP participation?
+
+
+5) DC Only. Repeat above feature combinations. Does DC differ from the rest of the country? (May have to drop Urban - probably all 1's)
